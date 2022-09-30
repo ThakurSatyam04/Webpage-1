@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: none;
+}
+.container1{
+    height: 63px;
+    background-color: #ecf6fe;
+}
+.heading{
+    display: flex;
+    font-size: 28px;
+    position: relative;
+    padding-top: 9px;
+    position: absolute;
+    padding-left: 25px;
+    padding-top: 10px;
+    font-family: fantasy;
+}
+.call{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    font-size: 21px;
+    font-style: oblique;
+    padding-top: 22px;
+    padding-right: 49px;
+}
+.navbar{
+    background-color: rgb(47 97 106);
+    cursor: pointer;
+}
+.navlist{
+    display: flex;
+    color: white;
+    font-weight: 100;
+    font-size: 13px;
+}
+.navlist li{
+    display: flex;
+    padding: 15px;
+    /* border: dotted; */
+}
+.navlist li a :hover{
+    color: rgb(176, 28, 28);
+}
+.containermain{
+    /* display: flex; */
+    /* align-items: center; */
+    background-color: #000000cc;
+    height: 500vh;
+}
+.container2{
+    display: flex;
+    /* align-items: center; */
+    /* background-color: #000000cc; */
+    /* height: 300vh; */
+}
+.firsthalf{
+    width: 40%;
+    /* background-color: dimgrey; */
+    color: white;
+    height: 284px;
+    margin: 19px;
+}
+.firsthalf img{
+    width: 482px;
+    height: 300px;
+    border: 4px solid white;
+}
+.secondhalf{
+    background-color: dimgrey;
+    color: white;
+    height: 308px;
+    width: 60%;
+    margin-top: 19px;
+    margin-right: 19px;
+}
+.secondhalf h2{
+    background-color: #fdf508;
+    color: black;
+    font-size: 22px;
+    padding: 5px;
+}
+.secondline line{
+    font-size: 14px;
+    padding: 14px;
+}
+.container3{
+    display: flex;    
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+/* .box1{
+    background-color: #fdf508;
+}
+.box2{
+    background-color: aqua;
+}
+.box3{
+    background-color: bisque;
+}
+.box4{
+    background-color: brown;
+} */
+.boxes{
+    margin: 11px;
+    height: 326px;
+    background-color: white;
+    width: 100%;
+}
+.boxes h3{
+    background-color: #fdf508;
+    font-size: 17px;
+}
+.boxes img{
+    height: 192px;
+    width: 291px;
+}
+.copyright{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    margin-top: 25px;
+    font-size: 15px;
+    padding: 12px;
+}
+.btn{
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 15px;
+    background-color: yellowgreen;
+    padding: 2px 13px;
+    font-family: cursive;
+}
+.about{
+    display: flex;
+}
+.button p3{
+    color: #ffd000;
+}
